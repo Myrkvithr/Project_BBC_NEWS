@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC_NEWS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@700&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+    <link rel="stylesheet" href="main.css">
+
+
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <a class="header__logo-link" href="#form">
+            <img class="header__logo-img borders" src="img/Frame3.svg" alt="LOGO">
+        </a>
+    </header>
+
+
+
+    <main>
+
+        <section class="main-content">
+            <h1 class="main-content__title borders">
+                Эксклюзивот ВВС: интервью с кардиологом Фермин Сильва, 97% пациентов которого излечились от
+                сердечно-сосудистых заболеваний</h1>
+            <span class="main-content__author borders">Луиза Сальварес</span>
+            <span class="main-content__media borders">BBC News Mundo</span>
+            <p class="main-content__description borders">Доктор Фермин Сильва возглавляет отделение сердечно-сосудистой
+                хирургии
+                в клинике Medical Heart Solutions. Его команде удалось добиться необыкновенного успеха - практически
+                100% его пациентов смогли вылечиться от сердечно-сосудистых заболеваний, включая гипертонию. Наш
+                специальный корреспондент отправился на место, чтобы узнать все лично.</p>
+            <figure class="main-content__figure">
+                <img class="main-content__img-1" src="img/Rectangle14_3.jpg" alt="main img">
+                <img class="main-content__img-1s" src="img/Rectangle14.jpg" alt="main img-mob">
+                <img class="main-content__img-1l" src="img/Rectangle3.jpg" alt="main img-mob">
+                <figcaption class="main-content__img-1-caption borders">Фермин Сильва, доктор медицинских наук,
+                    сердечно-сосудистый хирург, общий стаж 34 года.</figcaption>
+            </figure>
+        </section>
+
+
+
+
+
+        <section class="scheme">
+            <img class="scheme__img" src="img/Rectangle6.png" alt="scheme img">
+            <img class="scheme__img-s" src="img/Rectangle16.png" alt="scheme img">
+            <span class="scheme__caption scheme__caption--big">Легочные артерии</span>
+            <span class="scheme__caption scheme__caption--big">Полные вены</span>
+            <span class="scheme__caption scheme__caption--small">Правое предсердие</span>
+            <span class="scheme__caption scheme__caption--small">Правый желудочек</span>
+            <span class="scheme__caption scheme__caption--big">Вены</span>
+            <span class="scheme__caption scheme__caption--big">Бедная кислородом богатая CO&#8322;</span>
+            <span class="scheme__caption scheme__caption--big">Капилляры</span>
+            <span class="scheme__caption scheme__caption--big">Легочные вены</span>
+            <span class="scheme__caption scheme__caption--big">Аорта и ее ветви</span>
+            <span class="scheme__caption scheme__caption--small">Левое предсердие</span>
+            <span class="scheme__caption scheme__caption--small">Левый желудочек</span>
+            <span class="scheme__caption scheme__caption--big">Артерии</span>
+            <span class="scheme__caption scheme__caption--big">Богатая кислородом бедная CO&#8322;</span>
+            <span class="scheme__caption scheme__caption--big">Капиллярное русло
+                всех тканий организма</span>
+        </section>
+
+
+
+
+        <section class="buy borders">
+
+
+            <div class="buy__content">
+                <img class="buy__content-product-img" src="img/Rectangle1027.png" alt="product img">
+                <img class="buy__content-product-img-s" src="img/Rec1027small.png" alt="product img">
+                <img class="buy__content-cert-img" src="img/Rectangle1029.jpg" alt="certificate img">
+                <img class="buy__content-cert-img-s" src="img/Rec1029small.png" alt="certificate img">
+                <div class="buy__price-block">
+                    <span class="buy__discr">Цена</span>
+                    <del class="buy__old-cost">80 EUR</del>
+                    <span class="buy__new-cost">39 EUR</span>
+                    <div class="buy__discount">
+                        <span class="buy__discount-text">Скидка</span>
+                        <span class="buy__discount-value">50%</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="timer">
+
+                <p class="timer__text">До конца акции осталось</p>
+
+                <div class="timer__content">
+                    <div class="timer__item">
+                        <span class="timer__item-num afss_hours_bv">04</span>
+                        <span class="timer__item-interval">часов</span>
+                    </div>
+                    <span class="timer__item-seporator">:</span>
+                    <div class="timer__item">
+                        <span class="timer__item-num afss_mins_bv">12</span>
+                        <span class="timer__item-interval">минут</span>
+                    </div>
+                    <span class="timer__item-seporator">:</span>
+                    <div class="timer__item">
+                        <span class="timer__item-num afss_secs_bv">24</span>
+                        <span class="timer__item-interval">секунд</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <form method="post" class='borders' id='form' name="authorization" action="http://example.com/profile.php">
+
+            <label class="form__legend" for="name">Введите ваше имя</label>
+            <input class="form__inp" type="text" name="username" id="name" placeholder='Ваше имя' autocomplete="off">
+
+            <label class="form__legend" for="tel">Введите ваш телефон</label>
+            <input class="form__inp" type="text" name="telephone" id="tel" placeholder='Ваше телефон'
+                autocomplete="off">
+            <button class="form__btn" type="submit">ЗАКАЗАТЬ</button>
+        </form>
+
+
+
+
+
+
+        <nav class="topics-nav borders">
+            <h2 class="topics-nav__title">Temas relacionados</h2>
+
+            <a class="topics-nav__item" href="#form">Медицина</a>
+            <a class="topics-nav__item" href="#form">Здоровье</a>
+            <a class="topics-nav__item" href="#form">Эксклюзив</a>
+        </nav>
+
+
+        <section class="comments borders">
+            <h2 class="comments__title">Комментарии</h2>
+
+
+
+            <article class="comments__item">
+                <img class="comments__item-icon" src="img/Rectangle1042.png" alt="comment author icon">
+                <div class="comments__content">
+                    <h3 class="comments__author-name">Мария Пилар Касадо Арайя<span class="comments__pub-time">2
+                            часа
+                            назад</span></h3>
+                    <p class="comments__text">Я принимаю Incasol уже больше 3х месяцев. Эффект просто потрясающий.
+                        Ушли
+                        одышка и боли в груди. Полностью прошли мигрени! Рекомендую всем это средство, даже если
+                        считаете себя здоровым. Сейчас такая экология, что болеют все и всем!</p>
+
+                    <div class="comments__footer">
+                        <a href="#form" class="comments__answer-link">Ответить</a>
+                        <span class="comments__likes-value">45</span>
+                        <a href="#form" class="comments__like-link">Мне нравится</a>
+                    </div>
+
+                </div>
+            </article>
+
+            <article class="comments__item comments__item--p">
+                <img class="comments__item-icon" src="img/Rectangle1043.png" alt="comment author icon">
+                <div class="comments__content">
+                    <h3 class="comments__author-name">Бланка Санчес Пара<span class="comments__pub-time">1 час
+                            назад</span></h3>
+                    <p class="comments__text">Абсолютно с вами согласна, Мария Пилар. Экология и стрессы очень
+                        влияют на
+                        весь организм. Я вегетарианка и веду здоровый образ жизни, но недавно сходила на
+                        обследование, и
+                        мне прописали Incasol, потому что увидели проблемы с сердцем! А я то думала, что здорова!
+                        Сейчас, в наше время, надо особенно тщательно следить за собой.
+                    </p>
+
+                    <div class="comments__footer">
+                        <a href="#form" class="comments__answer-link">Ответить</a>
+                        <span class="comments__likes-value">32</span>
+                        <a href="#form" class="comments__like-link">Мне нравится</a>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <aside>
+        <article class="aside__news-item">
+            <h2 class="aside__news-title">Principales noticias</h2>
+            <a href="#form" class="aside__news-descr-link">La "nueva era afgana" que Rusia planea con el regreso del
+                Talib?n</a>
+            <span class="aside__news-time-pub">8 horas</span>
+        </article>
+
+        <article class="aside__news-item">
+            <h2 class="aside__news-title2">No te lo pierdas</h2>
+            <img class="aside__news-img" src="img/Rectangle3.jpg" alt="news-img">
+            <a href="#form" class="aside__news-descr-link">Эксклюзив от ВВС: интервью с кардиологом Фермин Сильва,
+                97%
+                пациентов которого...</a>
+            <span class="aside__news-time-pub">23 agosto 2021</span>
+        </article>
+    </aside>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
